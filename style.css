@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#96551d;
+}
+
+.title,.contSearch{
+    background-color: #fff;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contSearch{
+    padding: 40px;
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.contSearch a{
+    color: #96551d;
+}
+
+#search{
+    overflow: hidden;
+    border: 2px solid #0a0a0a;
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    padding-left: 20px ;
+    border-radius: 10px;
+    background-color: #eeb724;
+}
+
+.cards{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.cards div{
+    margin: 16px;
+    background-color: #0a0a0a;
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: flex;
+    color: #fff;
+}
+
+.cards div:hover{
+    color: #eeb724;
+}
+
+.cards img{
+    object-fit: cover;
+    object-position: center;
+    width: 45%;
+    height: 200px;
+}
+
+.cards article{
+    overflow: hidden;
+    width: 100%;
+    margin: 10px 20px;
+}
+
+.cards article h3{
+    display: inline;
+    margin-right: 5px;
+}
+
+#nameC{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 23px;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#species{
+    background-color: #707070;
+    text-align: center;
+    border-radius: 10px;
+    color: #0a0a0a;
+}
